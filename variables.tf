@@ -45,7 +45,7 @@ variable "vm_template" {
 
 variable "vm_linked_clone" {
   description = "Use linked clone to create the vSphere virtual machine from the template (true/false). If you would like to use the linked clone feature, your template need to have one and only one snapshot"
-  default = "false"
+  default     = "false"
 }
 
 variable "vm_ip" {
